@@ -1,0 +1,4681 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<fileVersion>2</fileVersion>
+	<configuration>
+		<name>my_blinky</name>
+		<toolchain>
+			<name>ARM</name>
+		</toolchain>
+		<debug>1</debug>
+		<settings>
+			<name>General</name>
+			<archiveVersion>3</archiveVersion>
+      <data>
+        <version>24</version>
+        <wantNonLocal>1</wantNonLocal>
+        <debug>1</debug>
+        <option>
+          <name>GRuntimeLibThreads</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>ExePath</name>
+          <state>$PROJ_DIR$\BUILD\Exe</state>
+        </option>
+        <option>
+          <name>ObjPath</name>
+          <state>$PROJ_DIR$\BUILD\Obj</state>
+        </option>
+        <option>
+          <name>ListPath</name>
+          <state>$PROJ_DIR$\BUILD\List</state>
+        </option>
+        <option>
+          <name>GEndianMode</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>Input variant</name>
+          <version>3</version>
+          <state>1</state>
+        </option>
+        <option>
+          <name>Input description</name>
+          <state>Full formatting.</state>
+        </option>
+        <option>
+          <name>Output variant</name>
+          <version>2</version>
+          <state>3</state>
+        </option>
+        <option>
+          <name>Output description</name>
+          <state>No specifier a, A.</state>
+        </option>
+        <option>
+          <name>GOutputBinary</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OGCoreOrChip</name>
+          <state>1</state>
+        </option>
+        <option>
+          <name>GRuntimeLibSelect</name>
+          <version>0</version>
+          <state>2</state>
+        </option>
+        <option>
+          <name>GRuntimeLibSelectSlave</name>
+          <version>0</version>
+          <state>2</state>
+        </option>
+        <option>
+          <name>RTDescription</name>
+          <state>Use the full configuration of the C/C++ runtime library. Full locale interface, C locale, file descriptor support, multibytes in printf and scanf, and hex floats in strtod.</state>
+        </option>
+        <option>
+          <name>OGProductVersion</name>
+          <state>5.10.0.159</state>
+        </option>
+        <option>
+          <name>OGLastSavedByProductVersion</name>
+          <state>7.80.2.11970</state>
+        </option>
+        <option>
+          <name>GeneralEnableMisra</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>GeneralMisraVerbose</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OGChipSelectEditMenu</name>
+          <state>MK64FN1M0xxx12	NXP MK64FN1M0xxx12</state>
+        </option>
+        <option>
+          <name>GenLowLevelInterface</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>GEndianModeBE</name>
+          <state>1</state>
+        </option>
+        <option>
+          <name>OGBufferedTerminalOutput</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>GenStdoutInterface</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>GeneralMisraRules98</name>
+          <version>0</version>
+          <state>1000111110110101101110011100111111101110011011000101110111101101100111111111111100110011111001110111001111111111111111111111111</state>
+        </option>
+        <option>
+          <name>GeneralMisraVer</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>GeneralMisraRules04</name>
+          <version>0</version>
+          <state>111101110010111111111000110111111111111111111111111110010111101111010101111111111111111111111111101111111011111001111011111011111111111111111</state>
+        </option>
+        <option>
+          <name>RTConfigPath2</name>
+          <state>$TOOLKIT_DIR$\INC\c\DLib_Config_Full.h</state>
+        </option>
+        <option>
+          <name>GBECoreSlave</name>
+          <version>24</version>
+          <state>35</state>
+        </option>
+        <option>
+          <name>OGUseCmsis</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OGUseCmsisDspLib</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>CoreVariant</name>
+          <version>24</version>
+          <state></state>
+        </option>
+        <option>
+          <name>GFPUDeviceSlave</name>
+          <state></state>
+        </option>
+        <option>
+          <name>FPU2</name>
+          <version>0</version>
+          <state>0</state>
+        </option>
+        <option>
+          <name>NrRegs</name>
+          <version>0</version>
+          <state>0</state>
+        </option>
+        <option>
+          <name>NEON</name>
+          <state></state>
+        </option>
+        <option>
+          <name>GFPUCoreSlave2</name>
+          <version>24</version>
+          <state>40</state>
+        </option>
+      </data>
+		</settings>
+		<settings>
+			<name>ICCARM</name>
+			<archiveVersion>2</archiveVersion>
+			<data>
+				<version>31</version>
+				<wantNonLocal>1</wantNonLocal>
+				<debug>1</debug>
+				<option>
+					<name>CCOptimizationNoSizeConstraints</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>CCDefines</name>
+					<state></state>
+				</option>
+				<option>
+					<name>CCPreprocFile</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>CCPreprocComments</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>CCPreprocLine</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>CCListCFile</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>CCListCMnemonics</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>CCListCMessages</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>CCListAssFile</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>CCListAssSource</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>CCEnableRemarks</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>CCDiagSuppress</name>
+					<state>Pa050,Pa084,Pa093,Pa082</state>
+				</option>
+				<option>
+					<name>CCDiagRemark</name>
+					<state></state>
+				</option>
+				<option>
+					<name>CCDiagWarning</name>
+					<state></state>
+				</option>
+				<option>
+					<name>CCDiagError</name>
+					<state></state>
+				</option>
+				<option>
+					<name>CCObjPrefix</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>CCAllowList</name>
+					<version>1</version>
+					<state>1111110</state>
+				</option>
+				<option>
+					<name>CCDebugInfo</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>IEndianMode</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>IProcessor</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>IExtraOptionsCheck</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>IExtraOptions</name>
+					
+					<state>-DTARGET_KSDK2_MCUS</state>
+					
+					<state>-DDEVICE_RTC=1</state>
+					
+					<state>--enable_restrict</state>
+					
+					<state>-DTOOLCHAIN_object</state>
+					
+					<state>-DARM_MATH_CM4</state>
+					
+					<state>--guard_calls</state>
+					
+					<state>-DTARGET_KPSDK_CODE</state>
+					
+					<state>-DFEATURE_LWIP=1</state>
+					
+					<state>-DDEVICE_SLEEP=1</state>
+					
+					<state>-DTARGET_MCU_K64F</state>
+					
+					<state>-DMBED_BUILD_TIMESTAMP=1517825695.96</state>
+					
+					<state>--diag_suppress=Pa050,Pa084,Pa093,Pa082</state>
+					
+					<state>-DDEVICE_PORTINOUT=1</state>
+					
+					<state>-e</state>
+					
+					<state>-DTARGET_FF_ARDUINO</state>
+					
+					<state>-DTARGET_RTOS_M4_M7</state>
+					
+					<state>-DDEVICE_SPISLAVE=1</state>
+					
+					<state>-DDEVICE_PORTOUT=1</state>
+					
+					<state>-DDEVICE_FLASH=1</state>
+					
+					<state>-DDEVICE_STDIO_MESSAGES=1</state>
+					
+					<state>-DDEVICE_ANALOGOUT=1</state>
+					
+					<state>-DTARGET_LIKE_MBED</state>
+					
+					<state>-DDEVICE_SERIAL_FC=1</state>
+					
+					<state>-DDEVICE_INTERRUPTIN=1</state>
+					
+					<state>-DTARGET_FRDM</state>
+					
+					<state>-DFEATURE_STORAGE=1</state>
+					
+					<state>-DTARGET_LIKE_CORTEX_M4</state>
+					
+					<state>-r</state>
+					
+					<state>-DTARGET_CORTEX_M</state>
+					
+					<state>-DDEVICE_SERIAL=1</state>
+					
+					<state>-DDEVICE_PORTIN=1</state>
+					
+					<state>-DTARGET_KPSDK_MCUS</state>
+					
+					<state>-DTARGET_Freescale</state>
+					
+					<state>-DDEVICE_I2C=1</state>
+					
+					<state>-D__CORTEX_M4</state>
+					
+					<state>--preinclude=mbed_config.h</state>
+					
+					<state>-DTARGET_CORTEX</state>
+					
+					<state>-DDEVICE_TRNG=1</state>
+					
+					<state>-DDEVICE_LOWPOWERTIMER=1</state>
+					
+					<state>-DDEVICE_ANALOGIN=1</state>
+					
+					<state>-DTARGET_UVISOR_UNSUPPORTED</state>
+					
+					<state>-DFSL_RTOS_MBED</state>
+					
+					<state>--no_wrap_diagnostics</state>
+					
+					<state>-DDEVICE_PWMOUT=1</state>
+					
+					<state>-DDEVICE_SERIAL_ASYNCH=1</state>
+					
+					<state>-DTARGET_DEBUG</state>
+					
+					<state>-DDEVICE_SPI=1</state>
+					
+					<state>-D__MBED__=1</state>
+					
+					<state>-DTOOLCHAIN_IAR</state>
+					
+					<state>-DTARGET_K64F</state>
+					
+					<state>-DCPU_MK64FN1M0VMD12</state>
+					
+					<state>-DDEVICE_STORAGE=1</state>
+					
+					<state>-DMBED_TRAP_ERRORS_ENABLED=1</state>
+					
+					<state>-DTARGET_M4</state>
+					
+					<state>-DTARGET_MCUXpresso_MCUS</state>
+					
+					<state>-DMBED_DEBUG</state>
+					
+					<state>-D__FPU_PRESENT=1</state>
+					
+					<state>-DDEVICE_I2CSLAVE=1</state>
+					
+					<state>-D__CMSIS_RTOS</state>
+					
+					<state>-DDEVICE_SPI_ASYNCH=1</state>
+					
+					<state>-D__MBED_CMSIS_RTOS_CM</state>
+					
+				</option>
+				<option>
+					<name>CCLangConformance</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>CCSignedPlainChar</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>CCRequirePrototypes</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>CCMultibyteSupport</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>CCDiagWarnAreErr</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>CCCompilerRuntimeInfo</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IFpuProcessor</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>OutputFile</name>
+					<state>$FILE_BNAME$.o</state>
+				</option>
+				<option>
+					<name>CCLibConfigHeader</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>PreInclude</name>
+					<state></state>
+				</option>
+				<option>
+					<name>CompilerMisraOverride</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>CCIncludePath2</name>
+					
+					<state>$PROJ_DIR$\.</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\cmsis</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M\TOOLCHAIN_IAR</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\drivers</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\events</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\events\equeue</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\filesystem</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\filesystem\bd</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\filesystem\fat</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\filesystem\fat\ChaN</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\filesystem\littlefs</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\filesystem\littlefs\littlefs</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\filesystem\littlefs\TESTS_COMMON</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\frameworks</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\frameworks\greentea-client</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\frameworks\greentea-client\greentea-client</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\frameworks\greentea-client\source</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\frameworks\unity</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\frameworks\unity\source</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\frameworks\unity\unity</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\frameworks\utest</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\frameworks\utest\source</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\frameworks\utest\utest</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\mbedtls</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\mbedtls\importer</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\mbedtls\platform</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\mbedtls\platform\inc</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\mbedtls\platform\src</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\mbedtls\src</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\mbedtls\targets</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\nanostack</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\netsocket</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\netsocket\cellular</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\netsocket\cellular\generic_modem_driver</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\netsocket\cellular\utils</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\storage</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\hal</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\hal\storage_abstraction</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\platform</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\rtos</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx4</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\Include</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Config</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Include</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Source</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Source\TOOLCHAIN_IAR</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Source\TOOLCHAIN_IAR\TARGET_RTOS_M4_M7</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\Source</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\targets</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\api</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\device</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\device\TOOLCHAIN_IAR</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\TARGET_FRDM</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\cfstore</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\cfstore\configuration-store</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\cfstore\doc</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\cfstore\doc\design</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\cfstore\doc\design\pics</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\cfstore\doc\design\umlet</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\cfstore\doc\project</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\cfstore\source</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\flash-journal</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\flash-journal\flash-journal-strategy-sequential</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\storage-volume-manager</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\storage-volume-manager\source</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\storage-volume-manager\storage-volume-manager</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\api</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\ipv4</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\ipv6</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\priv</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\prot</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\polarssl</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\polarssl</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip-eth</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip-eth\arch</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip-eth\arch\TARGET_Freescale</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip-eth\arch\TARGET_Freescale\TARGET_K64F</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip-sys</state>
+					
+					<state>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip-sys\arch</state>
+					
+					<state>$PROJ_DIR$\</state>
+					
+				</option>
+				<option>
+					<name>CCStdIncCheck</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>CCCodeSection</name>
+					<state>.text</state>
+				</option>
+				<option>
+					<name>IInterwork2</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IProcessorMode2</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>CCOptLevel</name>
+					<state>3</state>
+				</option>
+				<option>
+					<name>CCOptStrategy</name>
+					<version>0</version>
+					<state>0</state>
+				</option>
+				<option>
+					<name>CCOptLevelSlave</name>
+					<state>3</state>
+				</option>
+				<option>
+					<name>CompilerMisraRules98</name>
+					<version>0</version>
+					<state>1000111110110101101110011100111111101110011011000101110111101101100111111111111100110011111001110111001111111111111111111111111</state>
+				</option>
+				<option>
+					<name>CompilerMisraRules04</name>
+					<version>0</version>
+					<state>111101110010111111111000110111111111111111111111111110010111101111010101111111111111111111111111101111111011111001111011111011111111111111111</state>
+				</option>
+				<option>
+					<name>CCPosIndRopi</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>CCPosIndRwpi</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>CCPosIndNoDynInit</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IccLang</name>
+					<state>2</state>
+				</option>
+				<option>
+					<name>IccCDialect</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>IccAllowVLA</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>IccCppDialect</name>
+					<state>2</state>
+				</option>
+				<option>
+					<name>IccExceptions</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IccRTTI</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IccStaticDestr</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>IccCppInlineSemantics</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IccCmsis</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>IccFloatSemantics</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>CCNoLiteralPool</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>CCOptStrategySlave</name>
+					<version>0</version>
+					<state>0</state>
+				</option>
+				<option>
+					<name>CCGuardCalls</name>
+					<state>1</state>
+				</option>
+			</data>
+		</settings>
+		<settings>
+			<name>AARM</name>
+			<archiveVersion>2</archiveVersion>
+			<data>
+				<version>9</version>
+				<wantNonLocal>1</wantNonLocal>
+				<debug>1</debug>
+				<option>
+					<name>AObjPrefix</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>AEndian</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>ACaseSensitivity</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>MacroChars</name>
+					<version>0</version>
+					<state>0</state>
+				</option>
+				<option>
+					<name>AWarnEnable</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>AWarnWhat</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>AWarnOne</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>AWarnRange1</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>AWarnRange2</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>ADebug</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>AltRegisterNames</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>ADefines</name>
+					<state></state>
+				</option>
+				<option>
+					<name>AList</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>AListHeader</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>AListing</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>Includes</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>MacDefs</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>MacExps</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>MacExec</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>OnlyAssed</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>MultiLine</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>PageLengthCheck</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>PageLength</name>
+					<state>80</state>
+				</option>
+				<option>
+					<name>TabSpacing</name>
+					<state>8</state>
+				</option>
+				<option>
+					<name>AXRef</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>AXRefDefines</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>AXRefInternal</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>AXRefDual</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>AProcessor</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>AFpuProcessor</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>AOutputFile</name>
+					<state>$FILE_BNAME$.o</state>
+				</option>
+				<option>
+					<name>AMultibyteSupport</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>ALimitErrorsCheck</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>ALimitErrorsEdit</name>
+					<state>100</state>
+				</option>
+				<option>
+					<name>AIgnoreStdInclude</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>AUserIncludes</name>
+					<state></state>
+				</option>
+				<option>
+					<name>AExtraOptionsCheckV2</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>AExtraOptionsV2</name>
+					
+					<state>-D__CORTEX_M4</state>
+					
+					<state>-DCPU_MK64FN1M0VMD12</state>
+					
+					<state>-DARM_MATH_CM4</state>
+					
+					<state>-D__FPU_PRESENT=1</state>
+					
+					<state>-D__MBED_CMSIS_RTOS_CM</state>
+					
+					<state>-D__CMSIS_RTOS</state>
+					
+					<state>-DFSL_RTOS_MBED</state>
+					
+				</option>
+				<option>
+					<name>AsmNoLiteralPool</name>
+					<state>0</state>
+				</option>
+			</data>
+		</settings>
+		<settings>
+			<name>OBJCOPY</name>
+			<archiveVersion>0</archiveVersion>
+			<data>
+				<version>1</version>
+				<wantNonLocal>1</wantNonLocal>
+				<debug>1</debug>
+				<option>
+					<name>OOCOutputFormat</name>
+					<version>2</version>
+					<state>0</state>
+				</option>
+				<option>
+					<name>OCOutputOverride</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>OOCOutputFile</name>
+					<state>name.srec</state>
+				</option>
+				<option>
+					<name>OOCCommandLineProducer</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>OOCObjCopyEnable</name>
+					<state>1</state>
+				</option>
+			</data>
+		</settings>
+		<settings>
+			<name>CUSTOM</name>
+			<archiveVersion>3</archiveVersion>
+			<data>
+				<extensions></extensions>
+				<cmdline></cmdline>
+			</data>
+		</settings>
+		<settings>
+			<name>BICOMP</name>
+			<archiveVersion>0</archiveVersion>
+			<data></data>
+		</settings>
+		<settings>
+			<name>BUILDACTION</name>
+			<archiveVersion>1</archiveVersion>
+			<data>
+				<prebuild></prebuild>
+				<postbuild></postbuild>
+			</data>
+		</settings>
+		<settings>
+			<name>ILINK</name>
+			<archiveVersion>0</archiveVersion>
+			<data>
+				<version>16</version>
+				<wantNonLocal>1</wantNonLocal>
+				<debug>1</debug>
+				<option>
+					<name>IlinkOutputFile</name>
+					<state>name.out</state>
+				</option>
+				<option>
+					<name>IlinkLibIOConfig</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>XLinkMisraHandler</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkInputFileSlave</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkDebugInfoEnable</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>IlinkKeepSymbols</name>
+					<state></state>
+				</option>
+				<option>
+					<name>IlinkRawBinaryFile</name>
+					<state></state>
+				</option>
+				<option>
+					<name>IlinkRawBinarySymbol</name>
+					<state></state>
+				</option>
+				<option>
+					<name>IlinkRawBinarySegment</name>
+					<state></state>
+				</option>
+				<option>
+					<name>IlinkRawBinaryAlign</name>
+					<state></state>
+				</option>
+				<option>
+					<name>IlinkDefines</name>
+					<state></state>
+				</option>
+				<option>
+					<name>IlinkConfigDefines</name>
+					<state></state>
+				</option>
+				<option>
+					<name>IlinkMapFile</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkLogFile</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkLogInitialization</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkLogModule</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkLogSection</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkLogVeneer</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkIcfOverride</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>IlinkIcfFile</name>
+					<state>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\device\TOOLCHAIN_IAR\MK64FN1M0xxx12.icf</state>
+				</option>
+				<option>
+					<name>IlinkIcfFileSlave</name>
+					<state></state>
+				</option>
+				<option>
+					<name>IlinkEnableRemarks</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkSuppressDiags</name>
+					<state></state>
+				</option>
+				<option>
+					<name>IlinkTreatAsRem</name>
+					<state></state>
+				</option>
+				<option>
+					<name>IlinkTreatAsWarn</name>
+					<state></state>
+				</option>
+				<option>
+					<name>IlinkTreatAsErr</name>
+					<state></state>
+				</option>
+				<option>
+					<name>IlinkWarningsAreErrors</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkUseExtraOptions</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>IlinkExtraOptions</name>
+					
+					<state>--skip_dynamic_initialization</state>
+					
+					<state>--threaded_lib</state>
+					
+				</option>
+				<option>
+					<name>IlinkLowLevelInterfaceSlave</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>IlinkAutoLibEnable</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>IlinkAdditionalLibs</name>
+					<state></state>
+				</option>
+				<option>
+					<name>IlinkOverrideProgramEntryLabel</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkProgramEntryLabelSelect</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkProgramEntryLabel</name>
+					<state>__iar_program_start</state>
+				</option>
+				<option>
+					<name>DoFill</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>FillerByte</name>
+					<state>0xFF</state>
+				</option>
+				<option>
+					<name>FillerStart</name>
+					<state>0x0</state>
+				</option>
+				<option>
+					<name>FillerEnd</name>
+					<state>0x0</state>
+				</option>
+				<option>
+					<name>CrcSize</name>
+					<version>0</version>
+					<state>1</state>
+				</option>
+				<option>
+					<name>CrcAlign</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>CrcPoly</name>
+					<state>0x11021</state>
+				</option>
+				<option>
+					<name>CrcCompl</name>
+					<version>0</version>
+					<state>0</state>
+				</option>
+				<option>
+					<name>CrcBitOrder</name>
+					<version>0</version>
+					<state>0</state>
+				</option>
+				<option>
+					<name>CrcInitialValue</name>
+					<state>0x0</state>
+				</option>
+				<option>
+					<name>DoCrc</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkBE8Slave</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>IlinkBufferedTerminalOutput</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>IlinkStdoutInterfaceSlave</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>CrcFullSize</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkIElfToolPostProcess</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkLogAutoLibSelect</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkLogRedirSymbols</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkLogUnusedFragments</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkCrcReverseByteOrder</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkCrcUseAsInput</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>IlinkOptInline</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkOptExceptionsAllow</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkOptExceptionsForce</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkCmsis</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>IlinkOptMergeDuplSections</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkOptUseVfe</name>
+					<state>1</state>
+				</option>
+				<option>
+					<name>IlinkOptForceVfe</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkStackAnalysisEnable</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkStackControlFile</name>
+					<state></state>
+				</option>
+				<option>
+					<name>IlinkStackCallGraphFile</name>
+					<state></state>
+				</option>
+				<option>
+					<name>CrcAlgorithm</name>
+					<version>0</version>
+					<state>1</state>
+				</option>
+				<option>
+					<name>CrcUnitSize</name>
+					<version>0</version>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IlinkThreadsSlave</name>
+					<state>1</state>
+				</option>
+			</data>
+		</settings>
+		<settings>
+			<name>IARCHIVE</name>
+			<archiveVersion>0</archiveVersion>
+			<data>
+				<version>0</version>
+				<wantNonLocal>1</wantNonLocal>
+				<debug>1</debug>
+				<option>
+					<name>IarchiveInputs</name>
+					<state></state>
+				</option>
+				<option>
+					<name>IarchiveOverride</name>
+					<state>0</state>
+				</option>
+				<option>
+					<name>IarchiveOutput</name>
+					<state>###Unitialized###</state>
+				</option>
+			</data>
+		</settings>
+		<settings>
+			<name>BILINK</name>
+			<archiveVersion>0</archiveVersion>
+			<data></data>
+		</settings>
+	</configuration>
+	
+	<group>
+	    <name>my_blinky</name>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed_config.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\TestFile.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\main.cpp</name>
+	    </file>
+	    
+	</group>
+	
+	<group>
+	    <name>mbed-os</name>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\mbed.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M\arm_math.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M\cmsis_armcc.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M\cmsis_armclang.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M\cmsis_compiler.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M\cmsis_gcc.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M\cmsis_iccarm.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M\cmsis_version.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M\core_armv8mbl.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M\core_armv8mml.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M\core_cm0.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M\core_cm0plus.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M\core_cm23.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M\core_cm3.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M\core_cm33.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M\core_cm4.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M\core_cm7.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M\core_cmSecureAccess.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M\core_sc000.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M\core_sc300.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M\mpu_armv7.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M\mpu_armv8.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M\tz_context.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\AnalogIn.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\AnalogOut.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\BusIn.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\BusInOut.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\BusOut.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\CAN.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\DigitalIn.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\DigitalInOut.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\DigitalOut.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\Ethernet.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\FlashIAP.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\I2C.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\I2CSlave.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\InterruptIn.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\InterruptManager.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\LowPowerTicker.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\LowPowerTimeout.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\LowPowerTimer.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\PortIn.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\PortInOut.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\PortOut.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\PwmOut.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\RawSerial.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\Serial.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\SerialBase.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\SPI.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\SPISlave.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\Ticker.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\Timeout.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\Timer.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\TimerEvent.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\UARTSerial.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\events\Event.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\events\EventQueue.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\events\mbed_events.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\events\mbed_shared_queues.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\events\equeue\equeue.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\events\equeue\equeue_platform.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\Dir.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\File.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\FileSystem.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\mbed_filesystem.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\bd\BlockDevice.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\bd\ChainingBlockDevice.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\bd\ExhaustibleBlockDevice.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\bd\HeapBlockDevice.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\bd\MBRBlockDevice.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\bd\ObservingBlockDevice.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\bd\ProfilingBlockDevice.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\bd\ReadOnlyBlockDevice.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\bd\SlicingBlockDevice.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\fat\FATFileSystem.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\fat\ChaN\diskio.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\fat\ChaN\ff.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\fat\ChaN\ffconf.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\fat\ChaN\integer.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\littlefs\LittleFileSystem.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\littlefs\littlefs\lfs.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\littlefs\littlefs\lfs_util.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\littlefs\TESTS_COMMON\atomic_usage.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\greentea-client\greentea-client\greentea_metrics.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\greentea-client\greentea-client\greentea_serial.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\greentea-client\greentea-client\test_env.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\unity\unity\unity.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\unity\unity\unity_config.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\unity\unity\unity_internals.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\utest\utest\unity_handler.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\utest\utest\utest.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\utest\utest\utest_case.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\utest\utest\utest_default_handlers.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\utest\utest\utest_harness.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\utest\utest\utest_scheduler.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\utest\utest\utest_serial.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\utest\utest\utest_shim.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\utest\utest\utest_specification.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\utest\utest\utest_stack_trace.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\utest\utest\utest_types.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\aes.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\aesni.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\arc4.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\asn1.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\asn1write.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\base64.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\bignum.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\blowfish.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\bn_mul.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\camellia.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\ccm.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\certs.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\check_config.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\cipher.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\cipher_internal.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\cmac.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\compat-1.3.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\config-no-entropy.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\config.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\ctr_drbg.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\debug.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\des.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\dhm.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\ecdh.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\ecdsa.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\ecjpake.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\ecp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\ecp_internal.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\entropy.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\entropy_poll.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\error.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\gcm.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\havege.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\hmac_drbg.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\md.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\md2.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\md4.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\md5.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\md_internal.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\memory_buffer_alloc.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\net.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\net_sockets.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\oid.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\padlock.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\pem.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\pk.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\pkcs11.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\pkcs12.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\pkcs5.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\pk_internal.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\platform.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\platform_time.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\ripemd160.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\rsa.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\sha1.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\sha256.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\sha512.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\ssl.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\ssl_cache.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\ssl_ciphersuites.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\ssl_cookie.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\ssl_internal.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\ssl_ticket.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\threading.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\timing.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\version.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\x509.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\x509_crl.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\x509_crt.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\x509_csr.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\inc\mbedtls\xtea.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\platform\inc\platform_mbed.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\CellularBase.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\CellularInterface.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\emac_stack_mem.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\EthInterface.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\MeshInterface.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\NetworkInterface.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\NetworkStack.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\nsapi.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\nsapi_dns.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\nsapi_ppp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\nsapi_types.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\Socket.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\SocketAddress.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\TCPServer.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\TCPSocket.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\UDPSocket.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\WiFiAccessPoint.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\WiFiInterface.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\cellular\onboard_modem_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\cellular\generic_modem_driver\OnboardCellularInterface.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\cellular\generic_modem_driver\PPPCellularInterface.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\cellular\generic_modem_driver\UARTCellularInterface.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\cellular\utils\APN_db.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\analogin_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\analogout_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\buffer.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\can_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\can_helper.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\dma_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\emac_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\ethernet_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\flash_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\gpio_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\gpio_irq_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\i2c_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\lp_ticker_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\pinmap.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\port_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\pwmout_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\rtc_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\serial_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\sleep_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\spi_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\ticker_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\trng_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\us_ticker_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\storage_abstraction\Driver_Common.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\storage_abstraction\Driver_Storage.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\ATCmdParser.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\Callback.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\CallChain.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\CircularBuffer.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\critical.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\CriticalSectionLock.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\CThunk.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\DeepSleepLock.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\DirHandle.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\FileBase.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\FileHandle.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\FileLike.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\FilePath.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\FileSystemHandle.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\FileSystemLike.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\FunctionPointer.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\LocalFileSystem.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_application.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_assert.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_critical.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_debug.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_error.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_interface.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_mem_trace.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_mktime.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_poll.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_preprocessor.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_retarget.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_rtc_time.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_semihost_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_sleep.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_stats.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_toolchain.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_wait_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\NonCopyable.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\platform.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\PlatformMutex.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\rtc_time.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\semihost_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\SingletonPtr.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\sleep.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\Stream.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\toolchain.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\Transaction.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\wait_api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\ConditionVariable.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\EventFlags.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\Mail.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\MemoryPool.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\Mutex.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\Queue.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\rtos.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\RtosTimer.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\rtos_idle.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\Semaphore.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\Thread.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\mbed_rtos1_types.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\mbed_rtos_storage.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\mbed_rtx_conf.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx4\cmsis_os.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\Include\cmsis_os2.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\Include\os_tick.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Config\RTX_Config.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Include\rtx_evr.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Include\rtx_os.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Source\rtx_core_c.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Source\rtx_core_ca.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Source\rtx_core_cm.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Source\rtx_lib.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Source\rt_OsEventObserver.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\mbed_rtx.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\api\dma_api_hal.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\api\gpio_object.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\api\objects.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\api\PeripheralPins.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\api\PortNames.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\dma_reqs.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\peripheral_clock_defines.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\device\cmsis.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\device\cmsis_nvic.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\device\fsl_device_registers.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\device\MK64F12.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\device\MK64F12_features.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\device\system_MK64F12.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_adc16.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_clock.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_cmp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_cmt.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_common.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_crc.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_dac.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_dmamux.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_dspi.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_dspi_edma.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_edma.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_enet.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_ewm.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_flash.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_flexbus.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_flexcan.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_ftm.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_gpio.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_i2c.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_i2c_edma.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_llwu.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_lptmr.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_mpu.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_pdb.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_pit.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_pmc.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_port.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_rcm.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_rnga.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_rtc.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_sai.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_sai_edma.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_sdhc.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_sim.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_smc.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_uart.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_uart_edma.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_vref.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_wdog.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\TARGET_FRDM\crc.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\TARGET_FRDM\device.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\TARGET_FRDM\fsl_clock_config.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\TARGET_FRDM\fsl_phy.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\TARGET_FRDM\PeripheralNames.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\TARGET_FRDM\PinNames.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\cfstore\configuration-store\configuration_store.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\cfstore\source\cfstore_config.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\cfstore\source\cfstore_debug.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\cfstore\source\cfstore_fnmatch.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\cfstore\source\cfstore_list.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\cfstore\source\cfstore_svm.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\cfstore\source\cfstore_test.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\cfstore\source\cfstore_utest.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\cfstore\source\cfstore_uvisor.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\flash-journal\flash_journal.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\flash-journal\flash-journal-strategy-sequential\flash_journal_crc.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\flash-journal\flash-journal-strategy-sequential\flash_journal_private.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\flash-journal\flash-journal-strategy-sequential\flash_journal_strategy_sequential.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\flash-journal\flash-journal-strategy-sequential\support_funcs.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\storage-volume-manager\storage-volume-manager\storage_volume_manager.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\EthernetInterface.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\eth_arch.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwipopts.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip_stack.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\ppp_lwip.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\api.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\arch.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\autoip.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\debug.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\def.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\dhcp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\dhcp6.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\dns.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\err.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\etharp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\ethip6.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\icmp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\icmp6.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\igmp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\inet.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\inet_chksum.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\init.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\ip.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\ip4.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\ip4_addr.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\ip4_frag.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\ip6.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\ip6_addr.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\ip6_frag.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\ip_addr.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\lwip_errno.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\mem.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\memp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\mld6.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\nd6.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\netbuf.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\netdb.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\netif.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\netifapi.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\opt.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\pbuf.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\raw.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\sio.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\snmp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\sockets.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\stats.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\sys.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\tcp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\tcpip.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\timeouts.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\udp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\priv\api_msg.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\priv\memp_priv.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\priv\memp_std.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\priv\nd6_priv.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\priv\tcpip_priv.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\priv\tcp_priv.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\prot\autoip.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\prot\dhcp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\prot\dns.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\prot\etharp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\prot\icmp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\prot\icmp6.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\prot\igmp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\prot\ip.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\prot\ip4.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\prot\ip6.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\prot\lwip_ethernet.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\prot\mld6.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\prot\nd6.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\prot\tcp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\lwip\prot\udp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\etharp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\lowpan6.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\lowpan6_opts.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\lwip_ethernet.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\slipif.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\ccp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\chap-md5.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\chap-new.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\chap_ms.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\eap.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\ecp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\eui64.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\fsm.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\ipcp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\ipv6cp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\lcp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\magic.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\mppe.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\ppp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\pppapi.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\pppcrypt.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\pppdebug.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\pppoe.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\pppol2tp.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\pppos.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\ppp_impl.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\ppp_opts.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\upap.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\vj.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\polarssl\arc4.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\polarssl\des.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\polarssl\md4.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\polarssl\md5.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\include\netif\ppp\polarssl\sha1.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip-eth\arch\TARGET_Freescale\k64f_emac_config.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip-eth\arch\TARGET_Freescale\lwipopts_conf.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip-sys\lwip_random.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip-sys\lwip_tcp_isn.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip-sys\arch\cc.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip-sys\arch\perf.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip-sys\arch\sys_arch.h</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\cmsis\TARGET_CORTEX_M\TOOLCHAIN_IAR\cmain.S</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Source\TOOLCHAIN_IAR\TARGET_RTOS_M4_M7\irq_cm4f.S</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\device\TOOLCHAIN_IAR\startup_MK64F12.S</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\events\equeue\equeue.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\events\equeue\equeue_posix.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\littlefs\littlefs\lfs.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\littlefs\littlefs\lfs_util.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\unity\source\unity.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\platform\src\mbed_trng.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\aes.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\aesni.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\arc4.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\asn1parse.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\asn1write.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\base64.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\bignum.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\blowfish.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\camellia.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\ccm.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\certs.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\cipher.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\cipher_wrap.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\cmac.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\ctr_drbg.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\debug.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\des.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\dhm.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\ecdh.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\ecdsa.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\ecjpake.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\ecp.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\ecp_curves.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\entropy.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\entropy_poll.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\error.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\gcm.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\havege.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\hmac_drbg.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\md.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\md2.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\md4.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\md5.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\md_wrap.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\memory_buffer_alloc.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\net_sockets.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\oid.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\padlock.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\pem.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\pk.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\pkcs11.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\pkcs12.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\pkcs5.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\pkparse.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\pkwrite.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\pk_wrap.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\platform.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\ripemd160.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\rsa.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\sha1.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\sha256.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\sha512.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\ssl_cache.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\ssl_ciphersuites.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\ssl_cli.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\ssl_cookie.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\ssl_srv.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\ssl_ticket.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\ssl_tls.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\threading.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\timing.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\version.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\version_features.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\x509.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\x509write_crt.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\x509write_csr.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\x509_create.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\x509_crl.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\x509_crt.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\x509_csr.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\mbedtls\src\xtea.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\mbed_flash_api.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\mbed_gpio.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\mbed_lp_ticker_api.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\mbed_pinmap_common.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\mbed_sleep_manager.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\mbed_ticker_api.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\hal\mbed_us_ticker_api.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_application.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_assert.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_board.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_critical.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_error.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_interface.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_mktime.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_sdk_boot.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_semihost_api.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_stats.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_wait_api_no_rtos.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\mbed_boot.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\mbed_rtx_handlers.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx4\cmsis_os1.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Config\RTX_Config.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Source\rtx_delay.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Source\rtx_evflags.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Source\rtx_evr.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Source\rtx_kernel.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Source\rtx_lib.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Source\rtx_memory.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Source\rtx_mempool.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Source\rtx_msgqueue.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Source\rtx_mutex.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Source\rtx_semaphore.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Source\rtx_system.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Source\rtx_thread.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Source\rtx_timer.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\RTX\Source\rt_OsEventObserver.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\Source\os_systick.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\rtx5\Source\os_tick_ptim.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\fsl_common.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\api\analogin_api.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\api\analogout_api.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\api\dma_api.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\api\flash_api.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\api\gpio_api.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\api\gpio_irq_api.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\api\i2c_api.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\api\lp_ticker.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\api\pinmap.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\api\port_api.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\api\rtc_api.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\api\sleep.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\pwmout_api.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\serial_api.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\spi_api.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\storage_driver.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\trng_api.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\us_ticker.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\device\system_MK64F12.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_adc16.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_clock.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_cmp.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_cmt.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_crc.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_dac.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_dmamux.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_dspi.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_dspi_edma.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_edma.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_enet.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_ewm.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_flash.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_flexbus.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_flexcan.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_ftm.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_gpio.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_i2c.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_i2c_edma.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_llwu.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_lptmr.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_mpu.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_pdb.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_pit.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_pmc.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_rcm.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_rnga.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_rtc.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_sai.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_sai_edma.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_sdhc.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_sim.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_smc.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_uart.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_uart_edma.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_vref.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\drivers\fsl_wdog.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\TARGET_FRDM\crc.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\TARGET_FRDM\fsl_clock_config.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\TARGET_FRDM\fsl_phy.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\TARGET_FRDM\mbed_overrides.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\TARGET_FRDM\PeripheralPins.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\cfstore\source\cfstore_fnmatch.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\cfstore\source\cfstore_test.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\cfstore\source\configuration_store.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\flash-journal\flash-journal-strategy-sequential\flash_journal_crc.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\flash-journal\flash-journal-strategy-sequential\strategy.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\flash-journal\flash-journal-strategy-sequential\support_funcs.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\emac_lwip.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip_stack.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\api\lwip_api_lib.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\api\lwip_api_msg.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\api\lwip_err.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\api\lwip_netbuf.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\api\lwip_netdb.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\api\lwip_netifapi.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\api\lwip_sockets.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\api\lwip_tcpip.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\lwip_def.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\lwip_dns.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\lwip_inet_chksum.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\lwip_init.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\lwip_ip.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\lwip_mem.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\lwip_memp.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\lwip_netif.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\lwip_pbuf.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\lwip_raw.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\lwip_stats.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\lwip_sys.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\lwip_tcp.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\lwip_tcp_in.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\lwip_tcp_out.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\lwip_timeouts.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\lwip_udp.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\ipv4\lwip_autoip.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\ipv4\lwip_dhcp.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\ipv4\lwip_etharp.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\ipv4\lwip_icmp.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\ipv4\lwip_igmp.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\ipv4\lwip_ip4.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\ipv4\lwip_ip4_addr.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\ipv4\lwip_ip4_frag.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\ipv6\lwip_dhcp6.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\ipv6\lwip_ethip6.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\ipv6\lwip_icmp6.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\ipv6\lwip_inet6.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\ipv6\lwip_ip6.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\ipv6\lwip_ip6_addr.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\ipv6\lwip_ip6_frag.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\ipv6\lwip_mld6.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\core\ipv6\lwip_nd6.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\lwip_ethernet.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\lwip_ethernetif.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\lwip_lowpan6.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_auth.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_ccp.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_chap-md5.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_chap-new.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_chap_ms.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_demand.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_eap.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_ecp.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_eui64.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_fsm.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_ipcp.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_ipv6cp.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_lcp.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_magic.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_mppe.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_multilink.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_ppp.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_pppapi.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_pppcrypt.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_pppoe.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_pppol2tp.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_pppos.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_upap.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_utils.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\lwip_vj.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\polarssl\lwip_arc4.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\polarssl\lwip_des.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\polarssl\lwip_md4.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\polarssl\lwip_md5.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip\src\netif\ppp\polarssl\lwip_sha1.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip-eth\arch\TARGET_Freescale\k64f_emac.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip-eth\arch\TARGET_Freescale\TARGET_K64F\hardware_init_MK64F12.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip-sys\lwip_random.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip-sys\lwip_tcp_isn.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip-sys\arch\lwip_checksum.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip-sys\arch\lwip_memcpy.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\lwip-sys\arch\lwip_sys_arch.c</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\AnalogIn.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\BusIn.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\BusInOut.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\BusOut.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\CAN.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\Ethernet.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\FlashIAP.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\I2C.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\I2CSlave.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\InterruptIn.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\InterruptManager.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\RawSerial.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\Serial.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\SerialBase.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\SPI.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\SPISlave.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\Ticker.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\Timeout.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\Timer.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\TimerEvent.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\drivers\UARTSerial.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\events\EventQueue.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\events\mbed_shared_queues.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\events\equeue\equeue_mbed.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\Dir.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\File.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\FileSystem.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\bd\ChainingBlockDevice.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\bd\ExhaustibleBlockDevice.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\bd\HeapBlockDevice.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\bd\MBRBlockDevice.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\bd\ObservingBlockDevice.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\bd\ProfilingBlockDevice.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\bd\ReadOnlyBlockDevice.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\bd\SlicingBlockDevice.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\fat\FATFileSystem.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\fat\ChaN\ff.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\fat\ChaN\ffunicode.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\littlefs\LittleFileSystem.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\filesystem\littlefs\TESTS_COMMON\atomic_usage.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\greentea-client\source\greentea_metrics.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\greentea-client\source\greentea_serial.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\greentea-client\source\greentea_test_env.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\utest\mbed-utest-shim.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\utest\source\unity_handler.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\utest\source\utest_case.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\utest\source\utest_default_handlers.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\utest\source\utest_greentea_handlers.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\utest\source\utest_harness.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\utest\source\utest_shim.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\utest\source\utest_stack_trace.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\frameworks\utest\source\utest_types.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\NetworkInterface.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\NetworkStack.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\nsapi_dns.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\Socket.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\SocketAddress.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\TCPServer.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\TCPSocket.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\UDPSocket.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\WiFiAccessPoint.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\cellular\generic_modem_driver\OnboardCellularInterface.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\cellular\generic_modem_driver\PPPCellularInterface.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\netsocket\cellular\generic_modem_driver\UARTCellularInterface.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\ATCmdParser.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\CallChain.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\FileBase.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\FileHandle.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\FilePath.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\FileSystemHandle.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\LocalFileSystem.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_alloc_wrappers.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_mem_trace.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_poll.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_retarget.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_rtc_time.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\mbed_wait_api_rtos.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\platform\Stream.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\ConditionVariable.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\EventFlags.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\Mutex.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\RtosTimer.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\Semaphore.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\Thread.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\rtos\TARGET_CORTEX\mbed_rtx_idle.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\cfstore\source\cfstore_svm.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\storage-volume-manager\source\storage_volume.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\storage\FEATURE_STORAGE\storage-volume-manager\source\storage_volume_manager.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\emac_stack_lwip.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\EthernetInterface.cpp</name>
+	    </file>
+	    
+	    <file>
+	        <name>$PROJ_DIR$\.\mbed-os\features\FEATURE_LWIP\lwip-interface\ppp_lwip.cpp</name>
+	    </file>
+	    
+	</group>
+	
+</project>
